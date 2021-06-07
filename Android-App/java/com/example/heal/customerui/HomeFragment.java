@@ -219,7 +219,7 @@ public class HomeFragment extends Fragment implements OnMapReadyCallback {
 
 
             if (!Places.isInitialized()) {
-                Places.initialize(getActivity().getApplicationContext(), "AIzaSyB3zgrLPzFHhx3NRlRRqUrwOzeclhqqEdY");
+                Places.initialize(getActivity().getApplicationContext(), "unique key");
             }
 
 
