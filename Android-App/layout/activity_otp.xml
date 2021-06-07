@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".customerui.OtpActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_bg_purple_svg" />
+
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:rotation="180"
+        app:srcCompat="@drawable/ic_bg_purple_svg" />
+
+    <EditText
+        android:id="@+id/phonenumber"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="380dp"
+        android:layout_marginRight="48dp"
+        android:drawableLeft="@drawable/ic_phone_doc"
+        android:drawablePadding="8dp"
+        android:ems="10"
+        android:hint="Phone Number"
+        android:includeFontPadding="false"
+        android:inputType="number"
+        android:paddingLeft="10dp"
+        android:textColor="@color/purple_200"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/sendotp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="488dp"
+        android:layout_marginEnd="110dp"
+        android:background="@drawable/rectbackground"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:text="Send OTP"
+        android:textAllCaps="false"
+        android:textColor="#F4EEEE"
+        android:textSize="22sp"
+        app:backgroundTint="@color/purple_200" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="296dp"
+        android:fontFamily="@font/poppinssemi"
+        android:text="Phone Login"
+        android:textColor="@color/purple_200"
+        android:textSize="36sp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp"
+        app:srcCompat="@drawable/ic_icon_bg_purple_2"
+        tools:layout_editor_absoluteX="14dp"
+        tools:layout_editor_absoluteY="8dp" />
+
+</RelativeLayout>

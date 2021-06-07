@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.heal.customerui.SettingsFragment"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_bg_purple_svg" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <ImageView
+                android:id="@+id/profileImage"
+                android:layout_width="100sp"
+                android:layout_height="100sp"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="20dp"
+                android:src="@drawable/contact" />
+
+            <EditText
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="15dp"
+                android:background="@null"
+                android:drawableStart="@drawable/ic_user_profile"
+                android:drawablePadding="8dp"
+                android:drawableTint="@color/dark_grey"
+                android:hint="Name"
+                android:padding="5dp" />
+
+            <EditText
+                android:id="@+id/phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:background="@null"
+                android:drawableStart="@drawable/ic_call_profile"
+                android:drawablePadding="8dp"
+                android:hint="Phone"
+                android:inputType="number"
+                android:padding="5dp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/contact"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:drawableStart="@drawable/ic_call_profile"
+                    android:drawablePadding="8dp"
+                    android:hint="Emergency Contact"
+                    android:inputType="number"
+                    android:padding="5dp" />
+
+                <ImageView
+                    android:id="@+id/buttonContact"
+                    android:layout_width="43dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="10sp"
+                    android:layout_marginLeft="10sp"
+                    android:src="@drawable/ic_action_contact" />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/age"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@null"
+                android:drawableStart="@drawable/ic_baseline_cake_24"
+                android:drawablePadding="8dp"
+                android:hint="Age"
+                android:padding="5dp" />
+
+            <EditText
+                android:id="@+id/notes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="20sp"
+                android:background="@null"
+                android:drawableStart="@drawable/ic_notes_profile"
+                android:drawablePadding="8dp"
+                android:hint="Notes/Patient's History"
+                android:padding="5dp" />
+
+            <Button
+                android:id="@+id/confirm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="50dp"
+                android:background="@drawable/rectbackground"
+                android:backgroundTint="@color/purple_200"
+                android:text="confirm"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/back"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="50dp"
+                android:background="@drawable/rectbackground"
+                android:backgroundTint="@color/purple_200"
+                android:text="back"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_undraw_profile"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp">
+            </ImageView>
+
+        </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+
+</LinearLayout>
