@@ -11,16 +11,7 @@ app.use('/', express.static(__dirname + "/public"));
 app.set('view engine', 'ejs');
 
 // Your web app's Firebase configuration
-var firebaseConfig = {
-    apiKey: "AIzaSyDFvg78LgKpvSqnxlz5-cMFr0K373TUGdw",
-    authDomain: "ambulance-finder-ca3db.firebaseapp.com",
-    databaseURL: "https://ambulance-finder-ca3db-default-rtdb.firebaseio.com",
-    projectId: "ambulance-finder-ca3db",
-    storageBucket: "ambulance-finder-ca3db.appspot.com",
-    messagingSenderId: "56027822011",
-    appId: "1:56027822011:web:257ebbd53275903931b69e",
-    measurementId: "G-Z8R07N29FH"
-};
+
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
 var database = firebase.database();
