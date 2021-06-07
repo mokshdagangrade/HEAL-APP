@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Biryani:wght@200;300;400;600;700;800;900&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif !important;
+}
+
+/* ------------- navbar --------------------------------*/
+.navbar-brand{
+    padding-left: 10%;
+}
+.navbar-brand span{
+    font-size: 1.8rem;
+    color: #2B39A1 !important;
+    font-family: 'Biryani', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+}
+.navbar-brand img{
+    vertical-align: middle
+    ;
+}
+.navbar-brand span:hover{
+    color: black !important;
+}
+
+.nav-item a{
+    color: #4D5CCF !important;
+    font-size: 1.2rem;
+}
+
+.nav-item{
+    padding-left: 10px;
+}
+.nav-link{
+    font-weight: 500;
+    font-size: 1.3rem !important;
+}
+.navbar-nav{
+    margin-left: 60%;
+}
+
+/* --------------- navbar end ---------------------------*/
+#landing{
+    background-image: url("/images/wave2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 5%;
+}
+.img{
+    padding-top: 8%;
+    text-align: center;
+}
+.img img{
+    height: 12.5vw;
+}
+.imgtext{
+    font-size: 1.2rem;
+}
+.detaildiv{
+    box-shadow: 0px 14px 30px 3px rgba(77, 92, 207, 0.25);
+    border-left: 10px solid #2B39A1;
+    border-radius: 5px;
+    padding:2% 0 3% 0;
+    margin-top: 4%;
+    background-color: white;
+}
+td:nth-child(2){
+    padding-left: 8%;
+    max-width: 300px;   
+}
+td{
+    padding-top:2%;
+}
+.heading{
+    font-size: 1.5rem;
+}
+.patinfo{
+    margin-left: 24%;
+}

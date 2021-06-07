@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Biryani:wght@200;300;400;600;700;800;900&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif !important;
+}
+
+/* ------------- navbar --------------------------------*/
+.navbar-brand{
+    padding-left: 10%;
+}
+.navbar-brand span{
+    font-size: 1.8rem;
+    color: #2B39A1 !important;
+    font-family: 'Biryani', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+}
+.navbar-brand img{
+    vertical-align: middle
+    ;
+}
+.navbar-brand span:hover{
+    color: black !important;
+}
+
+.nav-item a{
+    color: #4D5CCF !important;
+    font-size: 1.2rem;
+}
+
+.nav-item{
+    padding-left: 10px;
+}
+.nav-link{
+    font-weight: 500;
+    font-size: 1.3rem !important;
+}
+.navbar-nav{
+    margin-left: 60%;
+}
+
+/* --------------- navbar end ---------------------------*/
+#landing{
+    background-image: url("/images/wave.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#landing .row{
+    padding-top: 10%;
+}
+
+.img{
+    height: 30vw;
+}
+
+.form{
+    padding-top: 3%;
+}
+
+.form h2{
+    color: #4D5CCF;
+}
+
+.form input{
+    border: none;
+    border-bottom: 1px solid #D8E8E4;
+    width: 19rem;
+}
+.form input:focus {
+    outline:none!important;
+    border-bottom: 2px solid #4D5CCF;
+}
+.form i{
+    padding-right: 2%;
+    color: #949494;
+}
+#result{
+    color: red;
+}
+.but1{
+    background-color: #4D5CCF;
+    border: none;
+    font-size: 1.2rem;
+    padding: 8px 70px 8px 70px;
+    color: white;
+    border-radius: 5px;
+}
+.but1:hover{
+    transition: 0.3s;
+    padding: 8px 50px 8px 50px;
+    background: linear-gradient(265.45deg, #727ED9 -69.41%, #727ED9 -29.23%, #616ED5 31.85%, #4D5CCF 95.03%, #4D5CCF 132.31%);
+}
+.su{
+   color: #4D5CCF; 
+   font-weight: bold;
+   text-decoration: none;
+}
+
+.back{
+    text-align: center;
+    padding-top: 5%;
+}
+.back button{
+    background-color: transparent;
+    border: 1px solid #4D5CCF;
+    color: #4D5CCF;
+    padding: 5px 60px 5px 60px;
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+    border-radius: 5px;
+}
+.back button:hover{
+    background-color: #4D5CCF;
+    transition: 0.3s;
+    color: white;
+}

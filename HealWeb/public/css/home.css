@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Biryani:wght@200;300;400;600;700;800;900&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif !important;
+}
+
+/* ------------- navbar --------------------------------*/
+.navbar-brand{
+    padding-left: 10%;
+}
+.navbar-brand span{
+    font-size: 1.8rem;
+    color: #2B39A1 !important;
+    font-family: 'Biryani', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+}
+.navbar-brand img{
+    vertical-align: middle
+    ;
+}
+.navbar-brand span:hover{
+    color: black !important;
+}
+
+.nav-item a{
+    color: #4D5CCF !important;
+    font-size: 1.2rem;
+}
+
+.nav-item{
+    padding-left: 10px;
+    font-weight: 500;
+}
+
+.navbar-nav{
+    margin-left: 60%;
+}
+
+/* --------------- navbar end ---------------------------*/
+
+/* ---------------------landing screen---------------------- */
+.front{
+    /* margin-top: 5%; */
+    background-image: url("/images/bg1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-bottom: 30%;
+}
+.front .content{
+    text-align: center;
+}
+
+.register{
+    margin-top: 3%;
+    font-family: 'Poppins','sans-serif';
+    font-weight: 400;
+    font-size: 18px;
+    background-color: #4D5CCF;
+    color: white;
+    padding: 13px 40px 13px 40px ;
+    border: none;
+    box-shadow: 0px 14px 35px rgba(77, 92, 207, 0.25);
+    border-radius: 5px;
+}
+
+.register:hover {
+    transition: 0.3s;
+    padding: 13px 50px 13px 50px;
+    background: linear-gradient(265.45deg, #727ED9 -69.41%, #727ED9 -29.23%, #616ED5 31.85%, #4D5CCF 95.03%, #4D5CCF 132.31%);
+}
+
+.register:hover i{
+    padding-left: 5px;
+    transition: 0.5s;
+}
+.front h1{
+    padding-top: 15%;
+    color: #2B39A1;
+    font-weight: 600;
+    font-size: 4vw;
+}
+
+.front p{
+    font-family: 'Biryani','sans-serif';
+    color: #4D5CCF;
+    font-weight: 600;
+}
+
+/* -------------------------About us--------------------- */
+
+.about .content h1{
+    text-align: center;
+    color: #2B39A1;
+    font-weight: 600;
+    font-size: 4vw;
+}
+
+.about .text{
+    font-family: 'Biryani','sans-serif';
+    font-weight: 400;
+}
+
+.about-image{
+    text-align: center;
+}
+
+.about-image p{
+    font-family: 'Biryani','sans-serif';
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #2B39A1;
+}
+
+/* --------------------contact us----------------------- */
+
+.contact .content{
+    text-align: center;
+}
+.contact .content h1{
+    padding-top: 1%;
+    color: #2B39A1;
+    font-weight: 600;
+    font-size: 4vw;   
+}
+
+.contact .content p{
+    font-family: 'Biryani','sans-serif';
+    font-weight: 400;
+    width: 100%;
+    padding-top: 1%;
+}
+.contact-form{
+    margin-top: 2%;
+    text-align: center;
+}
+.form input{
+    width: 19.5rem;
+    height: 2.5rem;
+
+}
+.form input,.form textarea{
+    border: 2px solid rgba(77, 92, 207, 0.25);
+    border-radius: 3px;
+    width: 20rem;
+}
+
+.form input::placeholder,.form textarea::placeholder{
+    color: #979797;
+    padding-left: 2%;
+}
+
+.img{
+    padding-top: 10%;
+    height: 18vw;
+}
+
+.submit{
+    border: none;
+    background-color: #4D5CCF;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 30px 8px 30px;
+    font-size: 1.2rem;
+}
+
+.submit:hover {
+    transition: 0.3s;
+    padding: 7px 40px 7px 40px;
+    background: linear-gradient(265.45deg, #727ED9 -69.41%, #727ED9 -29.23%, #616ED5 31.85%, #4D5CCF 95.03%, #4D5CCF 132.31%);
+}
+
+/* -----------Footer--------------- */
+footer{
+    background-color: #2B39A1;
+    padding: 2% 0 2% 0;
+    color: white;
+}
+footer a{
+    color: white;
+}
+footer a:hover{
+    color: white;
+}

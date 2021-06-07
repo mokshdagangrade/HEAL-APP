@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HEAL-Web </title>
+
+  <link rel="stylesheet" href="/css/home.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Biryani&display=swap" rel="stylesheet"> 
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous">
+  </script>
+  <script src="https://kit.fontawesome.com/c3c2ece58a.js" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+    crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/c3c2ece58a.js" crossorigin="anonymous"></script>
+    
+<script src="https://www.gstatic.com/firebasejs/8.6.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.0/firebase-database.js"></script>
+
+
+</head>
+
+<body>
+
+  <!-- -------NAVBAR-------- -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top scrolling-nav">
+    <!-- Image and text -->
+    <a class="navbar-brand" href="/">
+      <img id="logo" class="mr-1" alt="Logo" src="images/heal.png">
+      <span>HEAL</span>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#aboutus">About us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/login">Login</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contactus">Contact us</a>
+        </li>
+      </ul>
+  </nav>
+
+  <div class="container-fluid front">
+    <div class="row">
+      <div class="col-lg-12 content">
+        <h1>Ambulance on Click</h1>
+        <p>Hospitals - let your ambulances reach to the people on time.</p>
+        <form action="/login">
+          <button type="submit" class="register">Login Now <i class="fas fa-angle-right"></i></button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- --------------About us----------------------- -->
+
+  <div class="container-fluid about" id="aboutus">
+    <div class="col-lg-12 content">
+      <h1>About Us</h1>
+      <br>
+      <p class="mx-auto col-lg-7 text">Our main aim is to provide optimum healthcare services by helping our users to locate nearby ambulances in case of emergency situations. We aim to providebetter and quicker health assistance in case of an emergency as we value the precious time of our patient.</p>
+    </div>
+    <br>
+      <div class="col-lg-12 about-image">
+        <img src="images/doctors.png">
+        <br><br>
+        <p>Register your hosptital with us now to get started!</p>
+        <a href="#contactus">
+          <button type="submit" class="register">Contact us to Register <i class="fas fa-angle-right"></i></button>
+        </a>
+      </div>
+  </div>
+
+  <!-- --------------------Contact Us-------------------- -->
+  
+  <div class="container-fluid contact my-5" id="contactus">
+    <div class="col-lg-12 content">
+      <h1>Contact us</h1>
+      <p>We will get back to you as soon as possible</p>
+    </div>
+    <div class="row">
+      <div class="offset-lg-1 col-lg-5 contact-form">
+        <form action="/" class="form">
+          <input type="text" placeholder="Name"> <br><br>
+          <input type="text" placeholder="Email"> <br><br>
+          <textarea placeholder="Feedback or Questions" cols="30" rows="3"></textarea> <br><br>
+          <button class="submit mx-auto">Submit</button>
+          <br>
+        </form>
+      </div>
+      <div class="col-lg-4">
+        <img src="images/contactus.png" class="img">
+      </div>
+    </div>
+  </div>
+
+  <!-- -----------------Footer----------------- -->
+  <footer class="container-fluid mt-5" id="footer">
+    <div class="row">
+      <div class="col-2"></div>
+      <div class="col-3" style="font-size: 3rem; padding-top: 3%;">
+        <a href="https://www.instagram.com/" target="_blank"> <i class="fab fa-instagram"></i></a>
+        <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+        <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+      </div>
+      <div class="col-1" style="border-right: 3px solid white;"></div>
+      <div class="col-1"></div>
+      <div class="col-5">
+        <p>Address :</p>
+        <p>Hiranandani Towers, Powai (E), Mumbai, Maharashtra<br>
+          786171, India
+        </p>
+        <p>
+          Support : <br>
+          Support@CoviCare.com
+        </p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
